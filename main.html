@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter with Neon Switch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox" id="unitSwitch">
+                <span class="slider"></span>
+            </label>
+            <span id="unitLabel">Celsius</span>
+        </div>
+        <div class="converter">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <input type="text" id="outputValue" readonly>
+        </div>
+    </div>
+</body>
+</html>

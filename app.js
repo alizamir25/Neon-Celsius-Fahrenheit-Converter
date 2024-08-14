@@ -3,16 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const unitLabel = document.getElementById('unitLabel');
     const inputValue = document.getElementById('inputValue');
     const outputValue = document.getElementById('outputValue');
-    function convertTemperature() {
+    function convertTemperature(){
         let value = parseFloat(inputValue.value);
-        if (isNaN(value)) {
+        if (isNaN(value)){
             outputValue.value = '';
             return;
         }
-        if (unitSwitch.checked) {
+        if (unitSwitch.checked){
             outputValue.value = ((value * 9 / 5) + 32).toFixed(2) + ' °F';
             unitLabel.textContent = 'Fahrenheit';
-        } else {
+        } else{
             outputValue.value = ((value - 32) * 5 / 9).toFixed(2) + ' °C';
             unitLabel.textContent = 'Celsius';
         }

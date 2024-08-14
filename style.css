@@ -9,12 +9,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Container styling */
 .container {
     text-align: center;
 }
 
-/* Switch styling */
 .switch-container {
     margin-bottom: 20px;
 }
@@ -66,7 +64,6 @@ input:checked + .slider::before {
     transform: translateX(26px);
 }
 
-/* Converter styling */
 .converter {
     display: flex;
     flex-direction: column;

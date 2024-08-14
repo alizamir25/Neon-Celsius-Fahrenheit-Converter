@@ -8,7 +8,6 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
 }
-
 .container {
     text-align: center;
 }
@@ -16,20 +15,17 @@ body {
 .switch-container {
     margin-bottom: 20px;
 }
-
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
 }
-
 .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-
 .slider {
     position: absolute;
     cursor: pointer;
@@ -42,7 +38,6 @@ body {
     border-radius: 34px;
     box-shadow: 0 0 10px rgba(209, 0, 125, 0.7); /* Neon glow effect */
 }
-
 .slider::before {
     position: absolute;
     content: "";
@@ -54,23 +49,19 @@ body {
     background-color: #fff;
     transition: .4s;
 }
-
 input:checked + .slider {
     background-color: #00ff88; /* Neon cyan */
     box-shadow: 0 0 10px rgba(0, 255, 115, 0.7); /* Neon glow effect */
 }
-
 input:checked + .slider::before {
     transform: translateX(26px);
 }
-
 .converter {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-
 input[type="number"], input[type="text"] {
     width: 200px;
     padding: 10px;
@@ -78,7 +69,6 @@ input[type="number"], input[type="text"] {
     border-radius: 5px;
     font-size: 1rem;
 }
-
 input[type="text"] {
     background-color: #333;
     color: #fff;

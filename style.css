@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1e1e1e; /* Dark background to enhance neon effect */
+    background-color: #000000; /* Dark background to enhance neon effect */
     margin: 0;
     color: #fff;
     font-family: Arial, sans-serif;
@@ -39,10 +39,10 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ff0099; /* Neon pink */
+    background-color: #ff1ca4; /* Neon pink */
     transition: .4s;
     border-radius: 34px;
-    box-shadow: 0 0 10px rgba(255, 0, 153, 0.7); /* Neon glow effect */
+    box-shadow: 0 0 10px rgba(209, 0, 125, 0.7); /* Neon glow effect */
 }
 
 .slider::before {
@@ -58,8 +58,8 @@ body {
 }
 
 input:checked + .slider {
-    background-color: #00ffcc; /* Neon cyan */
-    box-shadow: 0 0 10px rgba(0, 255, 204, 0.7); /* Neon glow effect */
+    background-color: #00ff88; /* Neon cyan */
+    box-shadow: 0 0 10px rgba(0, 255, 115, 0.7); /* Neon glow effect */
 }
 
 input:checked + .slider::before {

@@ -1,5 +1,3 @@
-// JavaScript for unit conversion and switch functionality
-
 document.addEventListener('DOMContentLoaded', function() {
     const unitSwitch = document.getElementById('unitSwitch');
     const unitLabel = document.getElementById('unitLabel');
